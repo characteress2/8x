@@ -1,8 +1,8 @@
 #!/bin/bash
 export ARCH=arm64
 export SUBARCH=arm64
-export CLANG_PATH="${HOME}/platform_prebuilts_clang_host_linux-x86/7.0"
-export CROSS_COMPILE="${HOME}/gcc-prebuilts/bin/aarch64-linux-gnu-"
+export CLANG_PATH="${HOME}/joseasensio/platform_prebuilts_clang_host_linux-x86/7.0"
+export CROSS_COMPILE="${HOME}/joseasensio/gcc-prebuilts/bin/aarch64-linux-gnu-"
 export CC="$CLANG_PATH/bin/clang"
 export CLANG_TRIPLE="aarch64-linux-gnu-"
 export KBUILD_COMPILER_STRING="`cat $CLANG_PATH/VERSION`"
